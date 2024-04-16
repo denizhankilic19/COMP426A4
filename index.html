@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Recipe Finder</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+    <body>
+        
+        <h3 class="important">Weather and Recipe Searcher</h3>
+    
+        <div class="container">
+            <div class="left-container">
+            <input type="text" id="ingredientsInput" placeholder="Enter ingredients...">
+            <button onclick="searchRecipes()">Search</button>
+        <div id="recipeResults"></div>
+        </div>
+            <div class="right-container">
+            <input type="text" id="cityInput" placeholder="Enter city...">
+            <button onclick="fetchWeather()">Search</button>
+        <div id="weatherResults"></div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+    </body>
+</html>

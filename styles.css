@@ -1,0 +1,70 @@
+.container {
+    overflow: auto; /* Clear floats */
+}
+
+.left-container {
+    float: left;
+    width: 45%;
+    margin-right: 20px; /* Add some space between containers */
+}
+
+.right-container {
+    float: right;
+    width: 45%;
+    margin-right: 0; /* Remove margin from the last container to prevent extra space */
+}
+
+
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#recipeResults {
+    margin-top: 20px;
+}
+
+.recipe {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+}
+
+.weather {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#weatherResults {
+    margin-top: 20px;
+}
+
+h3{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
