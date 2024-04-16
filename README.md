@@ -2,6 +2,7 @@
 # Recipe and Weather App
 
 This is a simple web application that allows users to search for recipes based on ingredients and get weather information for a specific city.
+So that you can follow a recipe by looking at the weather. If its hot, make a refreshing meal. If its cold make a hot meal.
 
 ## Features
 
